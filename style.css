@@ -1,0 +1,142 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header{
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    background-color:rgba(255, 255, 255, 0.945);
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+ }
+.nav{
+    overflow: hidden;
+    background-color: #333;
+ }
+ .nav a{
+    float: left;
+    color: #0ff36e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ .nav a:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+ }
+
+
+#hero{
+    background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+#about{
+    background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+#about .about{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#about .section-title{
+    text-align: center;
+    color: yellow;
+
+}
+#education{
+background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+background-size: cover;
+background-position: top center;
+position:relative;
+}
+#education .section-title{
+    text-align: center;
+    color: yellow;
+}
+#education .education{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.table{
+    border-color: aliceblue;
+}
+#hobbies{
+    background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: aliceblue;
+}
+#skills{
+    background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: aliceblue;
+}
+#contact{
+    background-image:url(banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height: 100%;
+    color: aliceblue;
+}
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2{
+    color: aliceblue;
+    font-size:20px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom:.5%;
+}
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 45%;
+    letter-spacing: .2rem;
+}
+#footer .social-item{
+    align-items: center;
+}
+#footer{
+     text-align: center;
+
+}
